@@ -1,0 +1,112 @@
+@media only screen and (min-width:768px) {
+    .container{ 
+       background-position:0px -100px ;
+       background-size:100% 80%;
+
+   }
+   .center-part{
+       width: 70%;
+       top: 200px;
+       /* padding: 20px; */
+   }
+   .part-top{
+    padding-bottom: 20px;
+    padding: 40px 30px 20px;
+}
+   .top-cen{
+       display: flex;
+       flex-direction: row;
+       /* border: 1px solid green; */
+   }
+   .page{
+    font-size: 15px;
+    width: 50%;
+    text-align: left;
+    /* border: 1px solid blue; */
+}
+   .dollar{
+    display: flex;
+     position: relative;
+     top: 0px;
+     left: 0px;
+     /* text-align: center; */
+     justify-content: center;
+     /* border: 1px solid red; */
+}
+.duration{
+    margin:0 auto;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+    width: 90%;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.monthly{
+
+    /* border: 1px solid blue; */
+    font-size: 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 5px 0px;
+
+}.monthly div:first-child{
+    padding-right: 7px;
+}
+.yearly{
+    /* border: 1px solid yellow; */
+    display: flex;
+    font-size: 15px;
+}
+.yearly div:nth-of-type(1){
+    padding: 5px 10px;
+    margin-right: 0;
+}
+.yearly div:nth-of-type(2){
+    background-color: hsl(14, 92%, 95%);
+    color: hsl(15, 100%, 70%);
+    padding: 5px 10px;
+    border-radius: 50px;
+    width: 120px;
+    height: 25px;
+    /* overflow: hidden; */
+}
+
+.clickk{
+    background-color: hsl(223, 50%, 87%);
+    border-radius: 30px;
+    width: 40px;
+    height: 25px;
+    margin-left: 3px;
+    padding: 3px;
+}
+.clickk div{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 18px;
+    height: 19px;
+    vertical-align: middle;
+}
+.click-goright{
+    margin-left: 15px;
+}
+/* ============ */
+.part-bottom p{
+    text-align: left;
+}
+.left-part{
+    padding: 12px 30px;
+    position: relative;
+    top: -50px;
+    left: 80%;
+    /* transform: translateX(-50%); */
+    width:40% ;
+    text-align: center;
+}
+}
+
+/* =========Desctop========== */
+

@@ -1,0 +1,831 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size : 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+.container {
+    width           : 1320px;
+    margin          : 0 auto;
+    background-color: #eee;
+}
+
+.top-head {
+    width              : 100%;
+    height             : 350px;
+    background         : url("images/image-hero-desktop.jpg");
+    background-size    : cover;
+    background-position: 0px 0px;
+}
+
+nav {
+    /* background-color: red; */
+    position: relative;
+}
+
+nav ul {
+    list-style     : none;
+    overflow       : hidden;
+    margin         : 0;
+    padding        : 0;
+    /* border      : 1px solid red; */
+    display        : flex;
+    flex-direction : row;
+    justify-content: flex-end;
+    /* align-items : end; */
+}
+
+nav li:last-child {
+    margin-right: 120px;
+    /* float    : left; */
+    /* border   : 1px solid; */
+}
+
+nav li a {
+    display        : block;
+    text-decoration: none;
+    color          : #fff;
+    padding        : 16px;
+    padding-top    : 40px;
+}
+
+nav .nav-bar {
+    color              : #ffffff;
+    position           : absolute;
+    top                : 20px;
+    right              : 40px;
+    font-size          : 2rem;
+    display            : none;
+    /* background-color: #fff; */
+}
+
+nav .close-bar {
+    color              : #fff;
+    /* background-color: #fff; */
+    font-size          : 35px;
+    position           : absolute;
+    top                : 20px;
+    right              : 40px;
+    display            : none;
+
+}
+
+
+.top-brand {
+    width           : 50%;
+    margin          : auto;
+    background-color: #fff;
+    position        : relative;
+    top             : -50px;
+    border-radius   : 5px;
+    padding         : 40px 40px 20px;
+    font-size       : 18px;
+    line-height     : 1.7;
+}
+
+.brand {
+    /* border: 1px solid; */
+    width    : 60px;
+    position : absolute;
+    top      : -30px;
+    left     : 50%;
+    transform: translateX(-50%);
+}
+
+.brand img {
+    width: 100%;
+}
+
+.content {
+    text-align   : center;
+    margin-bottom: 40px;
+}
+
+.content h2 {
+    margin-bottom: 0;
+}
+
+.content p {
+    color        : #666;
+    margin-top   : 0;
+    margin-bottom: 0;
+}
+
+.buttons {
+    /* padding: 20px; */
+
+}
+
+.buttons .btn:first-child {
+    float           : left;
+    /* padding      :16px 40px; */
+    border-radius   : 50px;
+    background-color: rgba(34, 180, 168, 0.774);
+    border          : none;
+    outline         : none;
+    color           : #fff;
+    font-size       : 16px;
+    padding         : 13px 30px;
+    height          : auto;
+    cursor          : pointer;
+    position        : relative;
+    top             : -20px;
+}
+
+.buttons .btn:first-child:hover {
+    background-color: hsl(176, 72%, 28%)
+}
+
+.buttons .btn:last-child {
+    float         : right;
+    vertical-align: middle;
+    padding-right : 20px;
+    border-radius : 50px;
+    color         : #666;
+    border        : none;
+    outline       : none;
+    height        : 50px;
+    font-size     : 16px;
+    cursor        : pointer;
+    position      : relative;
+    top           : -20px;
+}
+.buttons .btn:last-child:hover {
+    background-color: #ccc;
+}
+
+
+.buttons .btn:last-child img {
+    vertical-align: middle;
+    height        : 100%;
+    padding-right : 15px;
+}
+
+.buttons::after {
+    content: "";
+    clear  : both;
+    display: table;
+}
+
+.num {
+    background-color: #fff;
+    width           : 50%;
+    margin          : 0 auto;
+    border-radius   : 5px;
+    padding         : 40px;
+
+}
+
+.section-2 {
+    position: relative;
+    top     : -60px;
+}
+
+.number {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    /* padding: 20px; */
+    overflow: hidden;
+}
+
+.num-text {
+    /* border: 1px solid ; */
+    float       : left;
+    width       : 33%;
+    padding-left: 15px;
+}
+
+.num-text:first-child {
+    padding-left: 20px;
+}
+
+.num-text:not(:last-child) {
+    border-right: 2px solid #999;
+}
+
+.num-text hr {
+    display: none;
+}
+
+.num-text h1 {
+    font-size : 30px;
+    margin-top: 0;
+}
+
+.num-text p {
+    color: #666;
+}
+
+.bar {
+    width                     : 100%;
+    /* border                 :1px solid; */
+    height                    : 13px;
+    margin-top                : 26px;
+    border-top-right-radius   : 40px;
+    border-bottom-right-radius: 40px;
+    background-color          : #eee;
+}
+
+.bar .bluebar {
+    background-color          : hsl(176, 50%, 47%);
+    width                     : 82%;
+    height                    : 100%;
+    border-top-right-radius   : 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.section-3 {
+    position: relative;
+    top     : -40px;
+}
+
+.big-div {
+    background-color: #fff;
+    width           : 50%;
+    margin          : 0 auto;
+    border-radius   : 5px;
+    padding         : 40px;
+    /* padding-top  : 0; */
+
+}
+
+.top-div h2 {
+    margin-top   : 0;
+    margin-bottom: 25px;
+}
+
+.top-div p {
+    color: #666;
+}
+
+.box {
+    border       : 1px solid #ddd;
+    padding      : 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.top-box {
+    position: relative;
+}
+
+.top-box p {
+    position: absolute;
+    right   : 0;
+    top     : -10px;
+    color   : rgba(34, 180, 168, 0.774);
+}
+
+.box>p {
+    color: #666;
+}
+
+.num-box {
+    position: relative;
+}
+
+.num-box .left {
+    position: absolute;
+    top     : 5px;
+    left    : 40px;
+    color   : #666;
+}
+
+.bottom-box {
+    position: relative;
+}
+
+.bottom-box button {
+    position        : absolute;
+    top             : 0;
+    right           : 10px;
+    padding         : 10px 16px;
+    border-radius   : 50px;
+    outline         : none;
+    border          : none;
+    background-color: rgba(34, 180, 168, 0.774);
+    cursor          : pointer;
+    color           : #fff;
+}
+
+.bottom-box button:hover {
+    background-color: hsl(176, 72%, 28%);
+}
+
+.big-div .box:last-child {
+    /* background-color: red; */
+}
+
+.box:last-child h3 {
+    color: rgb(204, 204, 204);
+}
+
+.box:last-child .top-box p {
+    color: rgba(34, 180, 168, 0.374);
+
+}
+
+.box:last-child p {
+    color: #ccc;
+}
+
+.box:last-child .num-box {
+    color: #bbb;
+}
+
+.box:last-child .num-box div {
+    left : 20px;
+    color: #ccc;
+}
+
+.box:last-child .bottom-box button {
+    background-color: #ddd;
+}
+
+
+/* Photo-active-states-modal-completed */
+.modal1 {
+    width           : 100%;
+    height          : 100%;
+    background-color: rgba(87, 81, 81, 0.63);
+    position        : fixed;
+    top             : 0;
+    left            : 0;
+}
+
+.box-modal1 {
+    background-color: #fff;
+    width           : 37%;
+    padding         : 30px;
+    border-radius   : 10px;
+    position        : absolute;
+    top             : 50%;
+    left            : 50%;
+    transform       : translate(-50%, -50%);
+    text-align      : center;
+    display         : none;
+}
+
+.tic {
+    width              : 70px;
+    height             : 70px;
+    /* background-color: rgb(102, 199, 186); */
+    border-radius      : 50%;
+    position           : absolute;
+    left               : 50%;
+    transform          : translateX(-50%);
+    margin-top         : 0;
+}
+
+.box-modal1 h2 {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.btn-got {
+    padding         : 10px 20px;
+    border-radius   : 50px;
+    background-color: hsla(175, 68%, 42%, 0.774);
+    cursor          : pointer;
+    color           : #fff;
+    border          : none;
+    outline         : none;
+}
+
+.btn-got:hover {
+    background-color: hsl(176, 72%, 28%)
+}
+
+.box-modal1 p {
+    padding-bottom: 15px;
+}
+
+
+/* Back this project */
+.backP {
+    width           : 100%;
+    height          : 100%;
+    background-color: rgba(87, 81, 81, 0.63);
+    position        : fixed;
+    top             : 0;
+    left            : 0;
+    display      : none;
+}
+
+.project {
+    background-color: #fff;
+    width           : 40%;
+    padding         : 30px;
+    border-radius   : 10px;
+    position        : absolute;
+    top             : 350px;
+    left            : 50%;
+    transform       : translate(-50%, -50%);
+    /* text-align      : center; */
+    font-size: 12px;
+    z-index: 1000;
+
+}
+.project > p{
+    color: #666;
+
+}
+.headPt{
+    /* border: 1px solid red; */
+    /* position: relative; */
+}
+.headPt h3{
+    margin: 0;
+}
+.headPt i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+}
+.boxPro{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.topbox{
+    padding: 15px;
+}
+.boxPro p:nth-of-type(1){
+    margin-top: 0;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+.boxPro p:nth-of-type(1):hover:not(.opfirst){
+    color:rgba(34, 180, 168, 0.774);
+
+}
+
+.boxPro p:nth-of-type(1) input{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.boxPro p:nth-of-type(2){
+    padding-left:30px ;
+    color: #666;
+    margin-top: 0;
+
+}
+.dollar{
+    display: inline-block;
+    margin-left: 10px;
+    color:rgba(34, 180, 168, 0.774);
+
+}
+.boxPro .firstP{
+    /* background-color: rgb(224, 58, 58); */
+    position: relative;
+}
+.numright{
+    color: #222;
+    /* background-color: rgb(101, 151, 36); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+}
+.numright span{
+    color: #999;
+}
+.lastone{
+    opacity: 0.5;
+}
+/* ==================== */
+.B-box{
+    border-top: 1px solid #eee;
+    padding: 25px;
+    position: relative;
+    display: none;
+    
+}
+.B-btns {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.B-btns button{
+    padding: 10px 18px;
+    margin-left: 15px;
+    border-radius: 50px;
+    border: 1px solid #666;
+    outline: none;
+    cursor: pointer;
+}
+.B-btns button:hover{
+    background-color: #fff;
+}
+
+.B-btns button:nth-of-type(1) span{
+    color: #666;
+}
+
+.B-btns button:nth-of-type(2){
+    background-color:rgba(34, 180, 168, 0.774);
+    color: #fff;
+}
+.B-btns button:nth-of-type(2):hover{
+    background-color: hsl(176, 72%, 28%)
+
+}
+
+.active{
+    border: 1px solid rgba(34, 180, 168, 0.774);
+}
+
+
+
+
+
+
+
+/* Responsive for tablet */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .top-brand,
+    .num,
+    .big-div {
+        width: 80%;
+    }
+
+    .top-head {
+        background-image: url("images/image-hero-mobile.jpg");
+        height          : 400px;
+    }
+
+    /* Photo-active-states-modal-completed  */
+    .box-modal1 {
+        width: 50%;
+    }
+
+    /*  Back this project */
+    .project{
+        width: 70%;
+    }
+
+}
+
+
+/* Responsive For Mobile */
+@media only screen and (max-width: 375px) {
+    .top-head {
+        background-image: url("images/image-hero-mobile.jpg");
+        height          : 300px;
+    }
+
+    .top-brand {
+        width        : 90%;
+        border-radius: 20px;
+    }
+
+    .brand {
+        width: 97px;
+        top  : -46px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav li a:hover {
+        background-color: rgb(177, 166, 166);
+    }
+
+    #last-a {
+        width: 400px;
+    }
+
+    nav .nav-bar {
+        display: block;
+    }
+
+    .navblock {
+        display         : block;
+        flex-direction  : column;
+        background-color: #eee;
+        /* width        : 90%; */
+        position        : relative;
+        top             : 80px;
+        width           : 90%;
+        margin          : 0 auto;
+        border-radius   : 10px;
+        z-index         : 20;
+    }
+
+    .content h2 {
+        font-size  : 1.5rem;
+        line-height: .8;
+    }
+
+    .content p {
+        margin-top: 20px;
+    }
+
+    .buttons .btn:first-child {
+        font-size    : 1rem;
+        padding      : 15px 30px;
+        border-radius: 75px;
+        cursor: pointer;
+    }
+
+    .buttons .btn:last-child {
+        padding         : 0;
+        height          : 47px;
+        float           : right;
+        margin-left     : 12px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+
+    .buttons .btn:last-child span {
+        display: none;
+    }
+
+    .num {
+        width         : 90%;
+        border-radius : 20px;
+        padding-bottom: 47px;
+        margin-top    : 35px;
+    }
+
+    .num-text {
+        width           : 100%;
+        /* border-bottom: 1px solid; */
+        border-right    : none;
+        text-align      : center;
+    }
+
+    .num-text:not(:last-child) {
+        border-right: none;
+    }
+
+    .num-text h1 {
+        text-align   : center;
+        font-size    : 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .num-text p {
+        width           : 77%;
+        font-size       : 2rem;
+        margin          : 0 auto;
+        /* border-bottom: 1px solid #555; */
+        padding-bottom  : 10px;
+    }
+
+    .num-text hr {
+        display: block;
+        width  : 53%;
+        margin : 13px auto;
+    }
+
+    .bar {
+        padding                  : 0 20;
+        border-top-left-radius   : 40px;
+        border-bottom-left-radius: 40px;
+        width                    : 100%;
+        height                   : 26px;
+        margin                   : 15px auto
+    }
+
+    .bluebar {
+        border-top-left-radius   : 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .big-div {
+        width        : 90%;
+        padding      : 25px;
+        border-radius: 20px;
+    }
+
+    .top-div h2 {
+        font-size: 1.5rem;
+    }
+
+    .top-div p {
+        line-height: 1;
+    }
+
+    .box {
+        padding       : 20px;
+        padding-bottom: 40px;
+    }
+
+    .top-box h3 {
+        font-size : 1rem;
+        margin-top: 0;
+    }
+
+    .top-box p {
+        left      : 0;
+        top       : 25px;
+        font-size : 1rem;
+        margin-top: 0px;
+    }
+
+    #pled {
+        top: 25px;
+    }
+
+    .box>p {
+        margin-top : 23px;
+        padding-top: 17px;
+        font-size  : 1rem;
+    }
+
+    .num-box h2 {
+        font-size : 1.8rem;
+        margin-top: 17px;
+    }
+
+    .num-box .left {
+        top      : 8px;
+        left     : 40px;
+        font-size: 1rem;
+    }
+
+    .bottom-box button {
+        top          : 40px;
+        left         : 0;
+        font-size    : -0.8rem;
+        padding      : 11px 54px;
+        border-radius: 24px;
+    }
+
+    .box:last-child .left {
+        left: 40px;
+    }
+
+    .box:last-child .num-box div {
+        left: 37px;
+    }
+
+    #first-left {
+        left: 48px;
+        top : 8px;
+    }
+
+    /* Photo-active-states-modal-completed  */
+    .box-modal1 {
+        width: 90%;
+    }
+
+    /*Back this Project  */
+    .backP{
+        height: 800%;
+        position: absolute;
+    }
+    .project{
+        top: 540px;
+    }
+
+    /* =================== */
+    .dollar{
+        padding-left:25px ;
+    }
+    .B-box{
+        padding:20px ;
+    }
+    .B-btns{
+        position: static;
+    }
+    .B-btns button{
+        margin-left: 0;
+        padding: 8px 14px;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+
+}
+
+
+

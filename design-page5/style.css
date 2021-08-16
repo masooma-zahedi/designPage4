@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'alata',sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: #fff; */
+}
+.header{
+    width: 100%;
+    height: 500px;
+    background: url("images/desktop/image-hero.jpg") no-repeat center center;
+    /* padding: 40px ; */
+    position: relative;
+}
+.black-header{
+    background: #000;
+}
+.black-header .nav-top{
+    padding-top:30px ;
+}
+.black-header .logo{
+    width: 40%;
+    height: 25px;
+}
+.black-header .logo img{
+    width: 100%;
+    
+}
+.black-header .immers{
+    display: none;
+}
+.black-header .nav-top ul{
+    display: block;
+    font-family: 'josefin sans', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.nav-top{
+    padding-top: 40px;
+}
+.logo{
+    /* border: 1px solid #fff; */
+    height: 30px;
+}
+.logo img{
+    height: 100%;
+}
+.ham{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+.nav ul{
+    list-style: none;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nav li{
+    /* float: left; */
+}
+.nav li a{
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.immers{
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #fff;
+    width: 90%;
+    font-family: 'josefin sans', sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* z-index: -1; */
+}
+
+/* ======section 2=========== */
+.section1{
+    /* border: 1px solid red; */
+    margin-bottom: 80px;
+    margin-top: 90px;
+
+}
+.img-top{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.img-top img{
+    width: 100%;
+}
+.section1 h2{
+    font-family: 'josefin sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 0%) ;
+}
+.section1 p{
+    text-align: center;
+    font-family: "alata",sans-serif;
+    color: hsl(0, 0%, 55%);
+    font-size: 15px;
+    
+}
+/* ===========section2========== */
+.section2{
+    /* border: 1px solid red; */
+    margin-bottom: 90px;
+
+}
+.section2 h2{
+    font-family: 'josefin sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 45px;
+    color: hsl(0, 0%, 0%) ;
+}
+.pic{
+    /* width: 100%; */
+    margin-bottom: 15px;
+    position: relative;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+.text-pic{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    color: #fff;
+    font-family: 'josefin sans', sans-serif;
+    font-size: 20px;
+    width: 120px;
+    text-transform: uppercase;
+}
+.pic:hover img{
+    opacity: 0.4;
+}
+.pic:hover .text-pic{
+    color:  hsl(0, 0%, 0%);
+}
+
+.seeall{
+    text-align: center;
+    margin-top: 25px;
+}
+.seeall a{
+    /* width: 150px; */
+    border: 1px solid hsl(0, 0%, 0%);
+    padding: 8px 40px ;
+    text-decoration: none;
+    display: inline-block;
+    color:hsl(0, 0%, 0%) ;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.seeall a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+footer{
+    background-color: #000;
+    padding: 40px;
+}
+.fo-logo{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.fo-logo img{
+    width: 100%;
+}
+.nav-foot{
+    margin-bottom: 25px;
+}
+.nav-foot ul{
+    color: #fff;
+    list-style: none;
+
+}
+.nav-foot li {
+    text-align: center;
+}
+.nav-foot li a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "alata",sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+.social{
+    text-align: center;
+}
+.social a{
+    text-decoration: none;
+    /* border: 1px solid red; */
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    padding: 6px;
+    cursor: pointer;
+}
+.social a img{
+    width: 100%;
+    height: 100%;
+}
+.final-fo{
+    color:  hsl(0, 0%, 41%);
+    margin-top: 15px;
+    font-size: 15px;
+}
+/* ============= */
+.block-pic{
+    display: block;
+}
+.none-pic{
+    display: none;
+}
+/* ======= */
+.intro{
+    font-size: 10px;
+}

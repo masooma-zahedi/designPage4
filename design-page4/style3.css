@@ -1,0 +1,47 @@
+@media (min-width:992px) {
+    .container{ 
+        background-size:100% 80%;
+    }
+    .top-part{
+        padding-top: 90px;
+    }
+    .cir-img{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 50%;
+        top: 50px;
+        transform: translateX(-50%);
+    }
+    .top-part h1{
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+    .top-part p{
+        color:  hsl(225, 20%, 60%);
+        width: 70%;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+    .center-part{
+        padding-bottom: 20px;
+        width: 50%;
+        top: 280px;
+    }
+    .page, .monthly, .yearly, .part-bottom{
+        font-size: 18px;
+    }
+    .yearly div:nth-of-type(2){
+        font-size: 15px;
+        height: 30px;
+    }
+    
+    
+}
+
+/* ======== */
+@media (min-width:1200px) {
+    .container{ 
+        background-size:100% 75%;
+    }
+}
