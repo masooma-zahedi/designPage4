@@ -26,3 +26,27 @@ sweetch.addEventListener("click",function(){
         darkIntro.classList.add("dark-intro");
     }
 })
+
+
+// calculate date
+window.addEventListener("load",calculateTime);
+function calculateTime(){
+    var date = new Date();
+    var dayNumber = date.getDay();
+    var hour = date.getHours();
+    hour = hour%12 ;
+    hour = hour == 0 ? "12": hour;
+    hour = hour < 10 ? "0"+hour : hour;
+
+    var min = date.getMinutes();
+    min = min < 10 ? "0"+ min : min;
+    var ampm = hour >= 12 ? "pm" : "am";
+    var dayName = ["Sun","Mon","Tue","Wed","thu","Fri","Sat"];
+    var day = dayName[dayNumber];
+
+    document.getElementById("day").innerHTML = day;
+    document.getElementById("hour").innerHTML=hour;
+    document.getElementById("min").innerHTML=min;
+    document.getElementById("ampm").innerHTML=ampm;
+    setTimeout(calculateTime,200)
+}
